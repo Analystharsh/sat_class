@@ -4,4 +4,4 @@ streamlit
 opencv-python-headless
 Pillow
 gdown
-image-quality
+image-quality==1.2.7
