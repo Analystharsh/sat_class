@@ -1,0 +1,7 @@
+tensorflow
+numpy
+streamlit
+opencv-python-headless
+Pillow
+gdown
+image-quality
