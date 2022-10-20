@@ -46,9 +46,9 @@ else:
     predictions = import_and_predict(image, model)
     score = tf.nn.softmax(predictions[0])
     img = cv2.imread("/content/PatternNet/images/airplane/airplane001.jpg", cv2.IMREAD_COLOR)
-#     st.write(predictions)
-#     st.write(score)
-#     st.write(np.argmax(score))
+    st.write(predictions)
+    st.write(score)
+    st.write(np.argmax(score))
 #     st.write(brisque.score(img))
     st.write(
     "This image most likely belongs to {} with a {:.2f} percent confidence."
