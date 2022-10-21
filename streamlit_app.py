@@ -49,7 +49,7 @@ else:
 #     st.write(predictions)
 #     st.write(score)
 #     st.write(np.argmax(score))
-#     st.write(brisque.score(img))
+    st.write(brisque.score(img))
     st.write(
     "This image most likely belongs to {}."
     .format(class_names[np.argmax(score)])
