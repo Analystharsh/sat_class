@@ -50,7 +50,7 @@ else:
 #     st.write(predictions)
 #     st.write(score)
 #     st.write(np.argmax(score))
-    st.write(img.shape)
+#     st.write(img.shape)
     st.write(brisque.score(image))
     st.write(
     "This image most likely belongs to {}."
