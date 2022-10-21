@@ -45,13 +45,13 @@ else:
     st.image(image, use_column_width=True)
     predictions = import_and_predict(image, model)
     score = tf.nn.softmax(predictions[0])
-    st.write(file)
+#     st.write(file)
 #     img = cv2.imread(file)
 #     st.write(predictions)
 #     st.write(score)
 #     st.write(np.argmax(score))
 #     st.write(img.shape)
-    st.write(brisque.score(image))
+    st.write("Image:score is",brisque.score(image))
     st.write(
     "This image most likely belongs to {}."
     .format(class_names[np.argmax(score)])
