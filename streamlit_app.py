@@ -45,7 +45,7 @@ else:
     st.image(image, use_column_width=True)
     predictions = import_and_predict(image, model)
     score = tf.nn.softmax(predictions[0])
-    img = cv2.imread("/content/PatternNet/images/airplane/airplane001.jpg", cv2.IMREAD_COLOR)
+    img = cv2.imread("/content/PatternNet/images/airplane/airplane001.jpg", cv2.IMREAD_GRAYSCALE)
 #     st.write(predictions)
 #     st.write(score)
 #     st.write(np.argmax(score))
