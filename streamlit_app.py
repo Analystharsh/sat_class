@@ -15,7 +15,7 @@ with st.spinner('Model is being loaded..'):
   model=load_model()
 
 st.write("""
-         # Satellite Image Classification
+         # Satellite Image Classification with Image Quality Score
          """
          )
 
