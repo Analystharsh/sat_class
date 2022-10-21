@@ -51,9 +51,9 @@ else:
 #     st.write(score)
 #     st.write(np.argmax(score))
 #     st.write(img.shape)
-    st.write("Image:score is",brisque.score(image))
+    st.write("Image Quality Score: {: .2f}".format(brisque.score(image))
     st.write(
-    "This image most likely belongs to {}."
+    "Class: {}."
     .format(class_names[np.argmax(score)])
 )
 #     st.write(
